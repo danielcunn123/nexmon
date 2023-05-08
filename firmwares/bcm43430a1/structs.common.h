@@ -30,7 +30,8 @@ struct wl_rxsts {
     uint16  datarate;
     uint8   mcs;
     uint8   htflags;
-    uint16  PAD;
+    uint8   PAD[8];
+    uint8   PAD1[12];
     uint    antenna;
     uint    pktlength;
     uint32  mactime;
@@ -40,7 +41,12 @@ struct wl_rxsts {
     uint    preamble;
     uint    encoding;
     uint    nfrmtype;
+    uint16 unkn1; /* ??? */
+    uint16 unkn2; /* increases over time */
+    uint8 PAD2[4];
+    uint8 rssi;
     struct wl_if *wlif;
+
 } __attribute__((packed));
 
 struct wlc_txh_info {
@@ -790,7 +796,7 @@ struct wlc_info {
     int PAD;                            /* 0X5BC */
     int PAD;                            /* 0X5C0 */
     int PAD;                            /* 0X5C4 */
-    uint hwrxoff;                       /* 0X5C8 */
+    int PAD;                            /* 0X5C8 */
     int PAD;                            /* 0X5CC */
     void *hrti;                         /* 0X5D0 */
     int PAD;                            /* 0X5D4 */
@@ -809,8 +815,8 @@ struct wlc_info {
 /* partly CHECKED */
 struct wlc_pub {
     struct wlc_info *wlc;               /* 0x000 */
-    uint8 cur_etheraddr[6];             /* 0x004 */
-    uint16 PAD;                         /* 0x00A */
+    int PAD;                            /* 0x004 */
+    int PAD;                            /* 0x008 */
     int PAD;                            /* 0x00C */
     int PAD;                            /* 0x010 */
     int PAD;                            /* 0x014 */
@@ -1851,3 +1857,4 @@ struct nexmon_header {
 } __attribute__((packed));
 
 #endif /*STRUCTS_COMMON_H */
+
