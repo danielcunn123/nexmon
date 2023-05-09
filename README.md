@@ -39,7 +39,7 @@ bcm4335b0                 | 6.30.171.1_sta       | Samsung Galaxy S4         | L
 bcm4339                   | 6_37_34_43           | Nexus 5                   | Android 6 Stock              |  X  |  X  |  X  |  X  |  X  |  O 
 bcm43430a1<sup>1</sup>    | 7_45_41_26           | Raspberry Pi 3 and Zero W | Raspbian 8                   |  X  |  X  |  X  |  X  |  X  |  O 
 bcm43430a1<sup>1</sup>    | 7_45_41_46           | Raspberry Pi 3 and Zero W | Raspbian Stretch             |  X  |  X  |  X  |  X  |  X  |  O 
-bcm43430a1<sup>1</sup>    | 7_45_41_46           | Banana Pi M2 Zero         | Armbian Bookworm Kernel 6.1  |  X  |  X  |  ?  |  X  |  X  |  O 
+bcm43430a1<sup>1</sup>    | 7_45_41_46           | Banana Pi M2 Zero         | Armbian Bookworm Kernel 6.1  |  X  |  X  |  X  |  X  |  X  |  O 
 bcm43451b1                | 7_63_43_0            | iPhone 6                  | iOS 10.1.1 (14B100)          |     |     |     |  X  |  X  |    
 bcm43455                  | 7_45_77_0_hw         | Huawei P9                 | Android 7 Stock              |  X  |  X  |  X  |  X  |  X  |    
 bcm43455                  | 7_120_5_1_sta_C0     | Galaxy J7 2017            | ?                            |     |     |     |  X  |  X  |    
@@ -49,6 +49,8 @@ bcm43455                  | 7_45_59_16           | Sony Xperia Z5 Compact    | L
 bcm43455c0                | 7_45_154             | Raspberry Pi B3+/B4       | Raspbian Kernel 4.9/14/19    |  X  |  X  |     |  X  |  X  |    
 bcm43455c0                | 7_45_189             | Raspberry Pi B3+/B4       | Raspbian Kernel 4.14/19, 5.4 |  X  |  X  |     |  X  |  X  |    
 bcm43455c0                | 7_45_206             | Raspberry Pi B3+/B4       | Raspberry Pi OS Kernel 5.4   |  X  |  X  |  X  |  X  |  X  |    
+bcm43455c0                | 7_45_206             | Raspberry Pi B3+/B4       | Raspbian Jammy Kernel 5.19   |  X  |  X  |  X  |  X  |  X  |    
+bcm43455c0                | 7_45_206             | Raspberry Pi B3+/B4       | Raspbian Jammy Kernel 6.1    |  X  |  X  |  X  |  X  |  X  |    
 bcm43436b0<sup>3</sup>    | 9_88_4_65            | Raspberry Pi Zero 2 W     | Raspberry Pi OS Kernel 5.10  |  X  |  X  |  X  |  X  |  X  |    
 bcm4356                   | 7_35_101_5_sta       | Nexus 6                   | Android 7.1.2                |  X  |  X  |     |  X  |  X  |  O 
 bcm4358                   | 7_112_200_17_sta     | Nexus 6P                  | Android 7 Stock              |  X  |  X  |     |  X  |  X  |  O 
